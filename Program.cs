@@ -9,7 +9,7 @@ class Buoi2
         int[] test2 = { 1, 1, 1, 1, 1, 6};
         int[] test3 = { 1, 2, 3, 4, 3, 2, 1};
         int[] test4 = { 1, 3, 3, 3, 1, 2, 5, 2};
-
+        
         string[] name = { "A", "B", "C", "D", "E", "F"};
         int[] grade = { 5, 4, 5, 7, 4, 6};
 
@@ -27,8 +27,34 @@ class Buoi2
     private static string Bai1(int[] input)
     {
         //Xử lý kết quả dựa theo đầu vào input rồi gán vào biến result
+        
         int result = -1;
-        return "" + result;
+        
+        for (int i = 0; i < input.Length; i++)
+        {
+            bool flag = false;
+            for (int j = 0; j < input.Length; j++)
+            {
+                if (input[i] == input[j])
+                {
+                    flag = false;
+                    break;
+                }
+                else
+                {
+                    flag = true;
+                    result = input[i];
+                }
+            }
+            if (flag)
+                break;
+        }
+        if (result == -1)
+        {
+            return "Khong co phan tu trung trong mang";
+        }
+        else
+            return "Phan tu trung trong mang la " + result;
     }
 
     private static void Bai2(string[]name, int[] grade)
