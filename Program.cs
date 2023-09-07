@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Xml.Linq;
 
 namespace BTVN;
@@ -12,7 +13,6 @@ class Buoi2
         int[] test2 = { 1, 1, 1, 1, 1, 6};
         int[] test3 = { 1, 2, 3, 4, 3, 2, 1};
         int[] test4 = { 1, 3, 3, 3, 1, 2, 5, 2};
-        
         string[] name = { "A", "B", "C", "D", "E", "F"};
         int[] grade = { 5, 4, 5, 7, 4, 6};
         
@@ -30,8 +30,12 @@ class Buoi2
 
     private static string Bai1(int[] input)
     {
+        if (input == null)
+        {
+            return "Mang rong";
+        }
+
         //Xử lý kết quả dựa theo đầu vào input rồi gán vào biến result
-        
         int result = -1;
         
         for (int i = 0; i < input.Length; i++)
@@ -57,10 +61,10 @@ class Buoi2
         }
         if (result == -1)
         {
-            return "Khong co phan tu trung trong mang";
+            return "Khong co phan tu khong trung trong mang";
         }
         else
-            return "Phan tu trung trong mang la " + result;
+            return "Phan tu khong trung trong mang la " + result;
     }
 
     private static void Bai2(string[]name, int[] grade)
