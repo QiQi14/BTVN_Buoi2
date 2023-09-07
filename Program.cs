@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
+
 namespace BTVN;
 class Buoi2
 {
@@ -12,6 +15,7 @@ class Buoi2
         
         string[] name = { "A", "B", "C", "D", "E", "F"};
         int[] grade = { 5, 4, 5, 7, 4, 6};
+        
 
 
         System.Console.WriteLine("BTVN Buoi 2:");
@@ -32,22 +36,24 @@ class Buoi2
         
         for (int i = 0; i < input.Length; i++)
         {
-            bool flag = false;
+            int flag = 0;
             for (int j = 0; j < input.Length; j++)
             {
-                if (input[i] == input[j])
+                if (flag == 2)
                 {
-                    flag = false;
                     break;
                 }
-                else
+                else if (input[i] == input[j])
                 {
-                    flag = true;
-                    result = input[i];
+                    flag = flag + 1;
                 }
             }
-            if (flag)
+            if (flag == 1)
+            {
+                result = input[i];
                 break;
+            }
+
         }
         if (result == -1)
         {
@@ -59,9 +65,29 @@ class Buoi2
 
     private static void Bai2(string[]name, int[] grade)
     {
-        //Xử lý kết quả dựa theo đầu vào là mảng name và mảng grade rồi gán vào biến result
+        if ((grade == null) || (name == null))
+        {
+            Console.WriteLine("Mang rong");
+            return;
+        }
 
-        string result = "Khong biet";
+        //Xử lý kết quả dựa theo đầu vào là mảng name và mảng grade rồi gán vào biến result
+        int max = grade.Max();
+        List<int> list_max = new List<int> ();
+        for (int i = 0;i < grade.Length;i++)
+        {
+            if (grade[i] == max)
+            {
+                list_max.Add(i);
+            }
+        }
+
+        string result = "";
+        foreach (int i in list_max)
+        {
+            result = result + name[i] + " ";
+        }
+
         Console.WriteLine("Nguoi co diem so cao nhat la: " + result);
     }
 }
