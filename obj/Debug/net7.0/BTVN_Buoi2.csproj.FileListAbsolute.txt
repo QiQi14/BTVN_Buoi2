@@ -2,3 +2,17 @@ D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.GeneratedMSBuildEditorConfig.ed
 D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfoInputs.cache
 D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfo.cs
 D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.csproj.CoreCompileInputs.cache
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.exe
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.deps.json
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.runtimeconfig.json
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.dll
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.pdb
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfoInputs.cache
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfo.cs
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.csproj.CoreCompileInputs.cache
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.dll
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\refint\BTVN_Buoi2.dll
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.pdb
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.genruntimeconfig.cache
+D:\Study\ITPlus\New folder\BTVN_Buoi2\BTVN_Buoi2\obj\Debug\net7.0\ref\BTVN_Buoi2.dll
