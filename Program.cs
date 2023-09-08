@@ -5,37 +5,45 @@ class Buoi2
 {
     public static void Main()
     {
-        int[] test1 = { 1, 2, 3, 3, 1};
-        int[] test2 = { 1, 1, 1, 1, 1, 6};
-        int[] test3 = { 1, 2, 3, 4, 3, 2, 1};
-        int[] test4 = { 1, 3, 3, 3, 1, 2, 5, 2};
+        Console.WriteLine("bai 1");
+        int[] chuoi = { 1, 2, 3, 2, 3, 6 };
+        int i = 0;
+        int j = 0;
+        Console.Write("Phan tu khong giong nhau la ");
+        for (i = 0; i < chuoi.Length; i++)
+        {
+            for (j = 0; j < chuoi.Length; j++)
+            {
+                if (i == j)
+                    continue;
+                if (chuoi[j] == chuoi[i])
+                    break;
 
-        string[] name = { "A", "B", "C", "D", "E", "F"};
-        int[] grade = { 5, 4, 5, 7, 4, 6};
+
+            }
+            if (chuoi.Length == j)
+            {
+                Console.Write(chuoi[i] + " ");
+            }
+
+        }
+
+        Console.WriteLine("\n++++++++++++++");
+        Console.WriteLine("++++++++++++++");
+        Console.WriteLine("bai 2");
+
+        Dictionary<String, int> dssv = new Dictionary<String, int>();
+        dssv.Add("Nguyen Van A", 8);
+        dssv.Add("Tran Van B", 5);
+        dssv.Add("Le Thi C", 10);
+        dssv.Add("Le Thi D", 3);
+
+        var DiemMAX = dssv.FirstOrDefault(x => x.Value == dssv.Values.Max());
+        Console.WriteLine(DiemMAX);
 
 
-        System.Console.WriteLine("BTVN Buoi 2:");
-        System.Console.WriteLine("Ket qua bai 1:");
-        System.Console.WriteLine("test case 1: " + Bai1(test1));
-        System.Console.WriteLine("test case 2: " + Bai1(test2));
-        System.Console.WriteLine("test case 3: " + Bai1(test3));
-        System.Console.WriteLine("test case 4: " + Bai1(test4));
-        System.Console.WriteLine("Ket qua bai 2:");
-        Bai2(name, grade);
-    }
 
-    private static string Bai1(int[] input)
-    {
-        //Xử lý kết quả dựa theo đầu vào input rồi gán vào biến result
-        int result = -1;
-        return "" + result;
-    }
 
-    private static void Bai2(string[]name, int[] grade)
-    {
-        //Xử lý kết quả dựa theo đầu vào là mảng name và mảng grade rồi gán vào biến result
 
-        string result = "Khong biet";
-        Console.WriteLine("Nguoi co diem so cao nhat la: " + result);
     }
 }
