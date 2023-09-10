@@ -2,3 +2,17 @@ D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.GeneratedMSBuildEditorConfig.ed
 D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfoInputs.cache
 D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfo.cs
 D:\ITPlus\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.exe
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.deps.json
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.runtimeconfig.json
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.dll
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\bin\Debug\net7.0\BTVN_Buoi2.pdb
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfoInputs.cache
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.AssemblyInfo.cs
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.dll
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\refint\BTVN_Buoi2.dll
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.pdb
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\BTVN_Buoi2.genruntimeconfig.cache
+C:\Users\Admin\C# Learning\ConsoleApp1\BTVN_Buoi2\obj\Debug\net7.0\ref\BTVN_Buoi2.dll
