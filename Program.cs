@@ -5,13 +5,13 @@ class Buoi2
 {
     public static void Main()
     {
-        int[] test1 = { 1, 2, 3, 3, 1};
-        int[] test2 = { 1, 1, 1, 1, 1, 6};
-        int[] test3 = { 1, 2, 3, 4, 3, 2, 1};
-        int[] test4 = { 1, 3, 3, 3, 1, 2, 5, 2};
+        int[] test1 = { 1, 2, 3, 3, 1 };
+        int[] test2 = { 1, 1, 1, 1, 1, 6 };
+        int[] test3 = { 1, 2, 3, 4, 3, 2, 1 };
+        int[] test4 = { 1, 3, 3, 3, 1, 2, 5, 2 };
 
-        string[] name = { "A", "B", "C", "D", "E", "F"};
-        int[] grade = { 5, 4, 5, 7, 4, 6};
+        string[] name = { "A", "B", "C", "D", "E", "F" };
+        int[] grade = { 5, 4, 5, 7, 4, 6 };
 
 
         System.Console.WriteLine("BTVN Buoi 2:");
@@ -26,16 +26,41 @@ class Buoi2
 
     private static string Bai1(int[] input)
     {
-        //Xử lý kết quả dựa theo đầu vào input rồi gán vào biến result
-        int result = -1;
-        return "" + result;
+        string result = "";
+        for (int i = 0; i < input.Length; i++)
+        {
+            bool isDuplicate = false;
+            for (int j = 0; j < input.Length; j++)
+            {
+                if (i != j && input[i] == input[j])
+                {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+            if (!isDuplicate)
+            {
+                result = input[i].ToString();
+            }
+        }
+
+        return result;
     }
 
-    private static void Bai2(string[]name, int[] grade)
+    private static void Bai2(string[] name, int[] grade)
     {
-        //Xử lý kết quả dựa theo đầu vào là mảng name và mảng grade rồi gán vào biến result
+        int max = grade[0];
+        int index = 0;
 
-        string result = "Khong biet";
-        Console.WriteLine("Nguoi co diem so cao nhat la: " + result);
+        for (int i = 1; i < grade.Length; i++)
+        {
+            if (grade[i] > max)
+            {
+                max = grade[i];
+                index = i;
+            }
+        };
+
+        System.Console.WriteLine("Học sinh có điểm cao nhất là: " + name[index]);
     }
 }
