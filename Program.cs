@@ -27,15 +27,38 @@ class Buoi2
     private static string Bai1(int[] input)
     {
         //Xử lý kết quả dựa theo đầu vào input rồi gán vào biến result
-        int result = -2;
+        
+    
+        int result = 0;
+        for (int i = 0; i < input.Length; i++)
+        {
+            int j;
+            for (j = 0; j < input.Length; j++)
+            {
+                if (i == j)
+                    continue;
+                if (input[j] == input[i])
+                    break;
+            }
+            if (input.Length == j)
+            {
+                result = input[i];
+            }
+        }
         return "" + result;
     }
 
     private static void Bai2(string[]name, int[] grade)
     {
         //Xử lý kết quả dựa theo đầu vào là mảng name và mảng grade rồi gán vào biến result
+        Student student = new Student();
+        List<Student> students = new List<Student>();
+        for(int i = 0; i < name.Length; i++)
+        {
+            students.Add(new Student(name[i], grade[i]));
 
-        string result = "Khong biet";
+        }
+        string result = student.studentMaxGrade(students).toString();
         Console.WriteLine("Nguoi co diem so cao nhat la: " + result);
     }
 }
